@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA07AC6E1D94D2A400202842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07AC6D1D94D2A400202842 /* main.m */; };
+		EA07AC711D94D2A400202842 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07AC701D94D2A400202842 /* AppDelegate.m */; };
+		EA07AC741D94D2A400202842 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07AC731D94D2A400202842 /* ViewController.m */; };
+		EA07AC771D94D2A500202842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA07AC751D94D2A500202842 /* Main.storyboard */; };
+		EA07AC791D94D2A500202842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA07AC781D94D2A500202842 /* Assets.xcassets */; };
+		EA07AC7C1D94D2A500202842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA07AC7A1D94D2A500202842 /* LaunchScreen.storyboard */; };
+		EA07AC911D94F11900202842 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07AC871D94F11900202842 /* TencentOpenAPI.framework */; };
+		EA07AC921D94F11900202842 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA07AC881D94F11900202842 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		EA07AC931D94F11900202842 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07AC8B1D94F11900202842 /* libWeChatSDK.a */; };
+		EA07AC941D94F11900202842 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA07AC8C1D94F11900202842 /* read_me.txt */; };
+		EA07AC951D94F11900202842 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA07AC8D1D94F11900202842 /* README.txt */; };
+		EA07AC981D94F2E200202842 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07AC971D94F2E100202842 /* Security.framework */; };
+		EA07AC9A1D94F2F000202842 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07AC991D94F2F000202842 /* libiconv.tbd */; };
+		EA07AC9C1D94F2FC00202842 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07AC9B1D94F2FC00202842 /* SystemConfiguration.framework */; };
+		EA07AC9E1D94F31500202842 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07AC9D1D94F31500202842 /* CoreGraphics.framework */; };
+		EA07ACA01D94F32400202842 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07AC9F1D94F32400202842 /* libsqlite3.tbd */; };
+		EA07ACA21D94F32F00202842 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07ACA11D94F32F00202842 /* CoreTelephony.framework */; };
+		EA07ACA41D94F33B00202842 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07ACA31D94F33B00202842 /* libstdc++.tbd */; };
+		EA07ACA61D94F34500202842 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07ACA51D94F34500202842 /* libz.tbd */; };
+		EA07ACAD1D950AD400202842 /* ZTThirdPartyLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07ACAC1D950AD400202842 /* ZTThirdPartyLogin.m */; };
+		EA07ACB61D950D6E00202842 /* ZTThirdLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07ACB51D950D6E00202842 /* ZTThirdLoginModel.m */; };
+		EA07ACC01D95103F00202842 /* ZTHttpHint.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07ACBF1D95103F00202842 /* ZTHttpHint.m */; };
+		EA07ACC61D9510E800202842 /* iconSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = EA07ACC21D9510E800202842 /* iconSuccess.png */; };
+		EA07ACC71D9510E800202842 /* ZTHub.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07ACC41D9510E800202842 /* ZTHub.m */; };
+		EA07ACC81D9510E800202842 /* iconError.png in Resources */ = {isa = PBXBuildFile; fileRef = EA07ACC51D9510E800202842 /* iconError.png */; };
+		EA07ACCB1D95121C00202842 /* ZTTmpDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07ACC91D95121C00202842 /* ZTTmpDataStorage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA07AC691D94D2A400202842 /* ZTThirdPartyLoginAndShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTThirdPartyLoginAndShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA07AC6D1D94D2A400202842 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA07AC6F1D94D2A400202842 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA07AC701D94D2A400202842 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA07AC721D94D2A400202842 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA07AC731D94D2A400202842 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA07AC761D94D2A500202842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA07AC781D94D2A500202842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA07AC7B1D94D2A500202842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA07AC7D1D94D2A500202842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA07AC871D94F11900202842 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		EA07AC881D94F11900202842 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		EA07AC8B1D94F11900202842 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		EA07AC8C1D94F11900202842 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		EA07AC8D1D94F11900202842 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		EA07AC8E1D94F11900202842 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		EA07AC8F1D94F11900202842 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		EA07AC901D94F11900202842 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		EA07AC971D94F2E100202842 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EA07AC991D94F2F000202842 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		EA07AC9B1D94F2FC00202842 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EA07AC9D1D94F31500202842 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA07AC9F1D94F32400202842 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EA07ACA11D94F32F00202842 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EA07ACA31D94F33B00202842 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		EA07ACA51D94F34500202842 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EA07ACAB1D950AD400202842 /* ZTThirdPartyLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTThirdPartyLogin.h; sourceTree = "<group>"; };
+		EA07ACAC1D950AD400202842 /* ZTThirdPartyLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTThirdPartyLogin.m; sourceTree = "<group>"; };
+		EA07ACB41D950D6E00202842 /* ZTThirdLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTThirdLoginModel.h; sourceTree = "<group>"; };
+		EA07ACB51D950D6E00202842 /* ZTThirdLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTThirdLoginModel.m; sourceTree = "<group>"; };
+		EA07ACBE1D95103F00202842 /* ZTHttpHint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTHttpHint.h; sourceTree = "<group>"; };
+		EA07ACBF1D95103F00202842 /* ZTHttpHint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHttpHint.m; sourceTree = "<group>"; };
+		EA07ACC21D9510E800202842 /* iconSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSuccess.png; sourceTree = "<group>"; };
+		EA07ACC31D9510E800202842 /* ZTHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTHub.h; sourceTree = "<group>"; };
+		EA07ACC41D9510E800202842 /* ZTHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHub.m; sourceTree = "<group>"; };
+		EA07ACC51D9510E800202842 /* iconError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconError.png; sourceTree = "<group>"; };
+		EA07ACC91D95121C00202842 /* ZTTmpDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTmpDataStorage.m; sourceTree = "<group>"; };
+		EA07ACCA1D95121C00202842 /* ZTTmpDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTmpDataStorage.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA07AC661D94D2A400202842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07ACA61D94F34500202842 /* libz.tbd in Frameworks */,
+				EA07ACA41D94F33B00202842 /* libstdc++.tbd in Frameworks */,
+				EA07ACA21D94F32F00202842 /* CoreTelephony.framework in Frameworks */,
+				EA07ACA01D94F32400202842 /* libsqlite3.tbd in Frameworks */,
+				EA07AC9E1D94F31500202842 /* CoreGraphics.framework in Frameworks */,
+				EA07AC9C1D94F2FC00202842 /* SystemConfiguration.framework in Frameworks */,
+				EA07AC9A1D94F2F000202842 /* libiconv.tbd in Frameworks */,
+				EA07AC981D94F2E200202842 /* Security.framework in Frameworks */,
+				EA07AC931D94F11900202842 /* libWeChatSDK.a in Frameworks */,
+				EA07AC911D94F11900202842 /* TencentOpenAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA07AC601D94D2A400202842 = {
+			isa = PBXGroup;
+			children = (
+				EA07AC6B1D94D2A400202842 /* ZTThirdPartyLoginAndShare */,
+				EA07AC6A1D94D2A400202842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA07AC6A1D94D2A400202842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA07AC691D94D2A400202842 /* ZTThirdPartyLoginAndShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA07AC6B1D94D2A400202842 /* ZTThirdPartyLoginAndShare */ = {
+			isa = PBXGroup;
+			children = (
+				EA07AC6F1D94D2A400202842 /* AppDelegate.h */,
+				EA07AC701D94D2A400202842 /* AppDelegate.m */,
+				EA07ACC11D95104400202842 /* httpTool */,
+				EA07ACB81D950D8100202842 /* model */,
+				EA07ACAA1D94FB6200202842 /* shareAndLogin */,
+				EA07AC731D94D2A400202842 /* ViewController.m */,
+				EA07AC721D94D2A400202842 /* ViewController.h */,
+				EA07AC751D94D2A500202842 /* Main.storyboard */,
+				EA07AC781D94D2A500202842 /* Assets.xcassets */,
+				EA07AC7A1D94D2A500202842 /* LaunchScreen.storyboard */,
+				EA07AC7D1D94D2A500202842 /* Info.plist */,
+				EA07AC851D94F11900202842 /* Vendor */,
+				EA07AC6C1D94D2A400202842 /* Supporting Files */,
+				EA07AC961D94F14700202842 /* framework */,
+			);
+			path = ZTThirdPartyLoginAndShare;
+			sourceTree = "<group>";
+		};
+		EA07AC6C1D94D2A400202842 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA07AC6D1D94D2A400202842 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA07AC851D94F11900202842 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				EA07AC861D94F11900202842 /* QQ */,
+				EA07AC891D94F11900202842 /* weixin */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		EA07AC861D94F11900202842 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				EA07AC871D94F11900202842 /* TencentOpenAPI.framework */,
+				EA07AC881D94F11900202842 /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		EA07AC891D94F11900202842 /* weixin */ = {
+			isa = PBXGroup;
+			children = (
+				EA07AC8A1D94F11900202842 /* SDKExport */,
+			);
+			path = weixin;
+			sourceTree = "<group>";
+		};
+		EA07AC8A1D94F11900202842 /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				EA07AC8B1D94F11900202842 /* libWeChatSDK.a */,
+				EA07AC8C1D94F11900202842 /* read_me.txt */,
+				EA07AC8D1D94F11900202842 /* README.txt */,
+				EA07AC8E1D94F11900202842 /* WechatAuthSDK.h */,
+				EA07AC8F1D94F11900202842 /* WXApi.h */,
+				EA07AC901D94F11900202842 /* WXApiObject.h */,
+			);
+			path = SDKExport;
+			sourceTree = "<group>";
+		};
+		EA07AC961D94F14700202842 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				EA07ACA51D94F34500202842 /* libz.tbd */,
+				EA07ACA31D94F33B00202842 /* libstdc++.tbd */,
+				EA07ACA11D94F32F00202842 /* CoreTelephony.framework */,
+				EA07AC9F1D94F32400202842 /* libsqlite3.tbd */,
+				EA07AC9D1D94F31500202842 /* CoreGraphics.framework */,
+				EA07AC9B1D94F2FC00202842 /* SystemConfiguration.framework */,
+				EA07AC991D94F2F000202842 /* libiconv.tbd */,
+				EA07AC971D94F2E100202842 /* Security.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		EA07ACAA1D94FB6200202842 /* shareAndLogin */ = {
+			isa = PBXGroup;
+			children = (
+				EA07ACAB1D950AD400202842 /* ZTThirdPartyLogin.h */,
+				EA07ACAC1D950AD400202842 /* ZTThirdPartyLogin.m */,
+				EA07ACC91D95121C00202842 /* ZTTmpDataStorage.m */,
+				EA07ACCA1D95121C00202842 /* ZTTmpDataStorage.h */,
+			);
+			name = shareAndLogin;
+			sourceTree = "<group>";
+		};
+		EA07ACB81D950D8100202842 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EA07ACB41D950D6E00202842 /* ZTThirdLoginModel.h */,
+				EA07ACB51D950D6E00202842 /* ZTThirdLoginModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		EA07ACC11D95104400202842 /* httpTool */ = {
+			isa = PBXGroup;
+			children = (
+				EA07ACC21D9510E800202842 /* iconSuccess.png */,
+				EA07ACC31D9510E800202842 /* ZTHub.h */,
+				EA07ACC41D9510E800202842 /* ZTHub.m */,
+				EA07ACC51D9510E800202842 /* iconError.png */,
+				EA07ACBE1D95103F00202842 /* ZTHttpHint.h */,
+				EA07ACBF1D95103F00202842 /* ZTHttpHint.m */,
+			);
+			name = httpTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA07AC681D94D2A400202842 /* ZTThirdPartyLoginAndShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA07AC801D94D2A500202842 /* Build configuration list for PBXNativeTarget "ZTThirdPartyLoginAndShare" */;
+			buildPhases = (
+				EA07AC651D94D2A400202842 /* Sources */,
+				EA07AC661D94D2A400202842 /* Frameworks */,
+				EA07AC671D94D2A400202842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTThirdPartyLoginAndShare;
+			productName = ZTThirdPartyLoginAndShare;
+			productReference = EA07AC691D94D2A400202842 /* ZTThirdPartyLoginAndShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA07AC611D94D2A400202842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZThink;
+				TargetAttributes = {
+					EA07AC681D94D2A400202842 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EA07AC641D94D2A400202842 /* Build configuration list for PBXProject "ZTThirdPartyLoginAndShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA07AC601D94D2A400202842;
+			productRefGroup = EA07AC6A1D94D2A400202842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA07AC681D94D2A400202842 /* ZTThirdPartyLoginAndShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA07AC671D94D2A400202842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07AC921D94F11900202842 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				EA07AC7C1D94D2A500202842 /* LaunchScreen.storyboard in Resources */,
+				EA07AC791D94D2A500202842 /* Assets.xcassets in Resources */,
+				EA07ACC81D9510E800202842 /* iconError.png in Resources */,
+				EA07ACC61D9510E800202842 /* iconSuccess.png in Resources */,
+				EA07AC771D94D2A500202842 /* Main.storyboard in Resources */,
+				EA07AC951D94F11900202842 /* README.txt in Resources */,
+				EA07AC941D94F11900202842 /* read_me.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA07AC651D94D2A400202842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07ACAD1D950AD400202842 /* ZTThirdPartyLogin.m in Sources */,
+				EA07AC741D94D2A400202842 /* ViewController.m in Sources */,
+				EA07ACB61D950D6E00202842 /* ZTThirdLoginModel.m in Sources */,
+				EA07ACCB1D95121C00202842 /* ZTTmpDataStorage.m in Sources */,
+				EA07ACC71D9510E800202842 /* ZTHub.m in Sources */,
+				EA07AC711D94D2A400202842 /* AppDelegate.m in Sources */,
+				EA07ACC01D95103F00202842 /* ZTHttpHint.m in Sources */,
+				EA07AC6E1D94D2A400202842 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA07AC751D94D2A500202842 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA07AC761D94D2A500202842 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA07AC7A1D94D2A500202842 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA07AC7B1D94D2A500202842 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA07AC7E1D94D2A500202842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA07AC7F1D94D2A500202842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA07AC811D94D2A500202842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZTThirdPartyLoginAndShare/Vendor/QQ",
+				);
+				INFOPLIST_FILE = ZTThirdPartyLoginAndShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZTThirdPartyLoginAndShare/Vendor/weixin/SDKExport",
+				);
+				OTHER_LDFLAGS = "-fobjc-arc";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZThink.ZTThirdPartyLoginAndShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA07AC821D94D2A500202842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZTThirdPartyLoginAndShare/Vendor/QQ",
+				);
+				INFOPLIST_FILE = ZTThirdPartyLoginAndShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZTThirdPartyLoginAndShare/Vendor/weixin/SDKExport",
+				);
+				OTHER_LDFLAGS = "-fobjc-arc";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZThink.ZTThirdPartyLoginAndShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA07AC641D94D2A400202842 /* Build configuration list for PBXProject "ZTThirdPartyLoginAndShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA07AC7E1D94D2A500202842 /* Debug */,
+				EA07AC7F1D94D2A500202842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA07AC801D94D2A500202842 /* Build configuration list for PBXNativeTarget "ZTThirdPartyLoginAndShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA07AC811D94D2A500202842 /* Debug */,
+				EA07AC821D94D2A500202842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA07AC611D94D2A400202842 /* Project object */;
+}
